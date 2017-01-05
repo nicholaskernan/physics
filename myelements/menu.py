@@ -32,7 +32,9 @@ from . import tools
 COLOR_HEX_BLUE1 = "6491a4"
 COLOR_HEX_BLUE2 = "9ec9ff"
 
-
+'''
+This class creates the surface and more. 
+'''
 class MenuItem:
     # padding [px]: left, top, right, bottom
     padding = (5, 2, 5, 2)

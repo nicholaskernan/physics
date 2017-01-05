@@ -84,7 +84,9 @@ class CallbackHandler:
             callback, params = c
             callback()
 
-
+'''
+This class receives and identifies callbacks. 
+'''
 class kContactListener(box2d.b2ContactListener):
 
     def __init__(self, get_callbacks):

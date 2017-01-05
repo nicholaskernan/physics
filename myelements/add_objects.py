@@ -34,7 +34,10 @@ from math import asin
 
 from . import tools_poly
 
-
+'''
+This class codes for rectangles, triangles, circles and polygons to be drawn 
+based on how the user moves their mouse. It also codes for motors and the joint tool.
+'''
 class Add:
     element_count = 0
 

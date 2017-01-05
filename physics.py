@@ -25,6 +25,13 @@
 # Wiki:   http://wiki.sugarlabs.org/go/Activities/Physics
 # Code:   git://git.sugarlabs.org/physics/mainline.git
 
+'''
+This module uses Box2D, a well known 2D physics engine to simulate a 
+physics world in which objects experience gravity, friction and inertia.    
+
+Users can create and configure objects with different bounciness, mass 
+and friction.
+'''
 import os
 import sys
 
@@ -42,8 +49,9 @@ import myelements as elements
 
 import tools
 from helpers import *
-
-
+'''
+This class does the basic setup of everything, such as drawing the world and setting up the cursor.
+'''
 class PhysicsGame:
 
     def __init__(self, activity):

@@ -7,7 +7,9 @@ from . import event
 
 CANVAS = None
 
-
+'''
+This class runs everything.
+'''
 class PygameCanvas(Gtk.EventBox):
 
     """

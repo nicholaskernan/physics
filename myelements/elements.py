@@ -57,7 +57,9 @@ from . import camera
 
 class Elements:
 
-    """The class which handles all interaction with the box2d engine
+    """The class which handles all interaction with the box2d engine. It also 
+sets up the basic world, loads all the bodies, makes each shape a random fixed
+color, provides a saveid, allows them to export to json format, and more. 
     """
     # Settings
     run_physics = True  # Can pause the simulation

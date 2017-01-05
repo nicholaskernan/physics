@@ -70,6 +70,10 @@ PALETTE_OBJECT_DATA = {
 
 
 # Tools that can be superclassed
+'''
+This class creates all of the tools within the activity, allowing users
+to create triangles, circles, boxes, polygons, as well as enablng them to grab, and delete objects, and more. 
+'''  
 class Tool(object):
     name = 'Tool'
     icon = 'icon'
